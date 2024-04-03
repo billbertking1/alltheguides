@@ -80,10 +80,10 @@ First I'll show you how to build the "brain" of those whole system. You can plac
 
 ![ME Storage Bus on both the Sink and ME Interface](img/phytoae2brain_2.png){.center}
 
-5. Have the ME Interface stock **Water** and **Phyto-Gro** and set the priority to **-1**.
+5. Have the **ME Interface** stock **Water** and **Phyto-Gro** and set the priority to **-1**.
 ![ME Interface settings](img/phytoae2brain_interfacesettings.png){.center}
 
-6. For the ME Storage Bus settings, have the **Input/Output Mode** to **Extract Only** and put **Water** in the filter by dragging it from JEI.
+6. For the **ME Storage Bus on the Sink** settings, have the **Input/Output Mode** to **Extract Only** and put **Water** in the filter by dragging it from JEI.
 ![Storage Bus on sink settings](img/phytoae2brain_sinkbus.png){.center width='489' height='253'}
 
 ---
@@ -114,7 +114,7 @@ You'll stack these modules to a **maximum of 8 tall** and arrange them into 4 wa
 
 ???+ tip "Tips"
 	- Use an AE2 **Memory Card** to copy **ME Interface** settings (`Shift + R-Click` to **Copy**, `R-Click` to **Paste**)
-	- Use **Redprint** to copy **Phytogenic Insolator** settings (`R-Click` to **Copy**, `Shift + R-Click` to **Paste**)
+	- Use **Redprint** to copy **Phytogenic Insolator** settings (`R-Click` to **Copy** and to **Paste**)
 
 ---
 
