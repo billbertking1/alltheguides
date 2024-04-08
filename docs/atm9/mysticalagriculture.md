@@ -1,6 +1,6 @@
 ---
 title: Mystical Agriculture
-description: ATM9 Mystical Agriculture changes and guides
+description: Mystical Agriculture Changes and Guides
 authors:
     - ArcTrooper
 ---
