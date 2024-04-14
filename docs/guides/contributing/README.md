@@ -14,7 +14,7 @@ nav:
 
 ## Guidelines
 
-??? Information "MUST READ"
+???+ Information "MUST READ"
 
     !!! Warning "As this guide is currently work-in-progress, guidelines are expected to change."
 
@@ -32,7 +32,7 @@ nav:
     7. You shall **NOT** touch `mkdocs.yml`, `requirements.txt`, or workflow files, _unless authorized, and you know what you're doing_.
     8. Documentation should ONLY be related to **All The Mods**, if it needs to be.
     9. Javascript is **NOT** allowed.
-    10. Folders & files must be in `lowercase` letters, with no spaces.
+    10. Folders & files must be in `lowercase` letters, with no spaces. `Camelcase` for image files is allowed.
 ---
 
 **All The Guides** is using [Github Pages](https://pages.github.com/), [MkDocs](https://www.mkdocs.org/) & [Material](https://squidfunk.github.io/mkdocs-material/).
@@ -98,7 +98,7 @@ pip uninstall -r ./requirements.txt -y
 
 ## Serve
 
-Serve will launch a server locally to test changes live @ [`localhost:8000`](http://localhost:8000). Importantly, it will provide warnings, errors, and mistakes (_spelling errors_). Once changes are satisfied without issues, test [Build](#build) before you commit / make a Pull Request.
+Serve will launch a server locally to test changes live @ [`localhost:8000`](http://localhost:8000). Importantly, it will provide warnings, errors, and mistakes {~~(_spelling errors_) ~> disabled for the time being, use Grammarly or another spellchecker ~~}. Once changes are satisfied without issues, test [Build](#build) before you commit / make a Pull Request.
 
 !!! Information "2 methods in serving MkDocs locally"
 
@@ -279,7 +279,7 @@ This is the directory layout that **MkDocs** uses.
 
 ### More Resources
 
-> Most of all necessary plugins are installed and can be used from Material / PyMarkdown, however consult to team for any additions.
+> Most of all necessary plugins are installed and can be used from Material / PyMarkdown, however consult the team for any additions.
 
 - [Examples of most of all Markdown features](examples/README.md)
 - [Writing Your Docs](https://www.mkdocs.org/user-guide/writing-your-docs/)
