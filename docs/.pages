@@ -1,6 +1,6 @@
 nav:
 #    - Blogs: /atg/blog
-    - <b>Home</b>:
+    - <b>Pack Guides</b>:
         - Home: README.md
         - All The Mods 9: atm9
         - All The Mods - Volcano Block: atmvb
@@ -11,6 +11,6 @@ nav:
         - All The Mods 6: atm6
         - Legacy Packs: legacy
 #    - Misc: misc
-    - Guides : guides
+    - Additional Guides : guides
     - Help: help
     - About: about

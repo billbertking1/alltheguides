@@ -1,5 +1,6 @@
 ---
 title: Bigger Reactors
+description: Bigger reactors mod description
 ---
 
 # Bigger Reactors

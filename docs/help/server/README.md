@@ -8,7 +8,7 @@ This guide will explain how to setup an AllTheMods server locally, or with a ser
 
 - [x] Server with at-least **8GB**+ RAM (_As required for most ATM packs_).
 - [x] CPU that's atleast **3.5Ghz** of speed.
-- [x] Specific [Java](java.md) version based on the pack **Minecraft** version.
+- [x] Specific [Java](../java.md) version based on the pack **Minecraft** version.
 
 ---
 
@@ -23,15 +23,15 @@ This guide will explain how to setup an AllTheMods server locally, or with a ser
 
 ### Java
 
-If you have multiple [Java](java.md) versions installed, the default `java -version` will be used, which may not be the correct version based on the **Minecraft** version. There's 3 solutions,
+If you have multiple [Java](../java.md) versions installed, the default `java -version` will be used, which may not be the correct version based on the **Minecraft** version. There's 3 solutions,
 
 - Edit the server script, changing `java` to correct java binary path.
     - Ex: `"C:\Program Files\Java\jre-17\bin\java.exe" @user_jvm_args.txt ...`
 - Remove old / add the correct **java/bin** path to **System Environment Variables** > Path
-- **Linux**, you can re-configure [Java](java.md) using `sudo update-alternatives --config java`
-- Uninstall all [Java](java.md) versions except the one being used.
+- **Linux**, you can re-configure [Java](../java.md) using `sudo update-alternatives --config java`
+- Uninstall all [Java](../java.md) versions except the one being used.
 
-!!! Note "If you've installed [Java](java.md), you may need to restart OS."
+!!! Note "If you've installed [Java](../java.md), you may need to restart OS."
 
 --- 
 
@@ -71,7 +71,7 @@ Make any changes necessary to `server.properties`, `configs`, and or `world/serv
 ??? Note "How To Import A World?"
     Upload world folder to server folder. Make sure the world folder is named `world`.
 
-!!! Tip "Performance Tips: Check out [Lag / Profiling](lag.md)"
+!!! Tip "Performance Tips: Check out [Lag / Profiling](../lag.md)"
 
 ---
 
