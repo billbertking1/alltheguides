@@ -31,13 +31,13 @@ Some additional information regarding other aspects on how the turbines work and
     * wider is more efficient than taller for fuel.
     * The most efficient setup for rods is a checkerboard pattern with three spaces between the outermost rod and the interior wall. Heat manifolds placed on the interior walls of the reactor also in a checkerboard pattern in the cardinal directions of any rods (north, South East, West).
     * passive cooled reactors generate rf, active cooled with water produces steam for turbines. You will need to run passive for a while to produce cyanite for blutonium to make turbines.
-    * one actively cooled reactor can produce enough stream for several turbines.
+    * one actively cooled reactor can produce enough steam for several turbines.
     * liquid sodium from mekanism can be used to actively cool the reactor making superheated liquid sodium then pumped into a heat exchanger to produce even more steam powering even more turbines.
     * Heat exchanger setup isn't really necessary in atm because of other more efficient setups for power. It's much like creating 5x ore processing in a modpack with mystical agriculture, fun but overkill.
 
 
 ### Computer Craft Intergration
-You can use **Computer Craft** with scripts such as [Kasra-G's Automated Reactor Controller](https://github.com/Kasra-G/ReactorController) to easily automate your reactor with the **Reactor Computer Port**. There are other Computer Craft scripts that will intergrate with Extreme Reactor Turbines as well. 
+You can use **Computer Craft** with scripts such as [Kasra-G's Automated Reactor Controller](https://github.com/Kasra-G/ReactorController) to easily automate your reactor with the **Reactor Computer Port**. There are other Computer Craft scripts that will integrate with Extreme Reactor Turbines as well. 
 ??? Note "You must enable HTTP API for Computer Craft Intergration"
     To pull the script above as outlined in the repo's instructions, you must edit the following file:<br>
     `/YOURWORLDNAME/defaultconfigs/computercraft-server.toml`
