@@ -21,10 +21,19 @@ authors:
 	
 ??? Question "Do I need to chunkload all the chunks my Chunk Destroyer is going to mine?"
     You do *not* need to load chunks you're mining. You only need to chunkload the chunk the **Chunk Destroyer** is in.
+
+??? Question "I have my chunks force loaded, but they don't run when I'm logged off."
+    1. Press ++m++ to open the map.
+    2. Press ++ctrl+s++ to open the server settings (requires OP).
+    3. Change `Forceloading Mode` to `always`.
 	
 ??? Question "How do I remove enchants from a book/weapon?"
-    - You can drop an anvil onto **Obsidian** with the enchanted book/weapon along with **Books** for each separate enchantment (EX: You have a book with 3 different enchants, you'd need 3 books to split those enchants). 
-	- You can also enchant the anvil with **Splitting** (Only splits books/weapons with 1 enchant) or **Obliteration** (Splits any number of enchants)
+    - Drop an anvil onto **Obsidian** with the enchanted book/weapon along with **Books** for each separate enchantment (EX: You have a book with 3 different enchants, you'd need 3 books to split those enchants). 
+	- Enchant the anvil with **Splitting** (Only splits books/weapons with 1 enchant) or **Obliteration** (Splits any number of enchants)
+    - Use the **Enchantment Extractor** from Industrial Foregoing. Provide it with **Books** and **Power**, and it will extract each enchantment on all enchanted items/books to singular books. It can also be configured to push extracted enchantments into the **Enchantment Library** from Apotheosis.
 
 ??? Question "What's the little 3D cube next to my crosshair?"
 	It's from Quark, the default keybind to toggle it is ++k++.
+
+??? Question "How do I find '`insert name`' biome?"
+    **Nature's Compass** is a really nice tool to find any and all biomes in the modpack. Craft it, right click with it in your hand, and you can run the search for any biome you are looking for (such as the Deep Dark).
